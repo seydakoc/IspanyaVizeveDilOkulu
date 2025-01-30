@@ -25,6 +25,7 @@
             background: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            margin-top: 20px;
         }
         footer {
             margin-top: 20px;
@@ -32,17 +33,43 @@
             background-color: #d32f2f;
             color: white;
         }
+        h2 {
+            color: #d32f2f;
+        }
+        a {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <header>
         İspanya Vize ve Dil Okulu
     </header>
+    
     <section>
-        <h1>Hoş Geldiniz!</h1>
-        <p>İspanya'ya vize başvurusu ve dil okulları hakkında bilgi almak için doğru yerdesiniz.</p>
-        <p>Yakında tüm detaylarla burada olacağız.</p>
+        <h2>Ana Sayfa</h2>
+        <p>Hoş geldiniz! İspanya'da dil eğitimi almak ve vize sürecinizi kolayca yönetmek mi istiyorsunuz? Nereden başlayacağınızı bilmiyor musunuz? Endişelenmeyin, burada aradığınız her şeyi bulabilirsiniz. Madrid ve Barcelona'da en uygun fiyatlı, resmi onaylı dil eğitimi fırsatlarıyla ilgili bilgi almak için benimle iletişime geçebilirsiniz.</p>
     </section>
+
+    <section>
+        <h2>Hakkımda</h2>
+        <p>2 yıldır Madrid’te yaşıyorum. Dil okulu ile vize alarak geldim ve diğer tüm vize süreçlerimi aynı okulda İspanya’dan yürüttüm. Sürecin başlangıçta ne kadar karmaşık gelebildiğini biliyorum. Bu nedenle tecrübelerimi paylaşarak yardımcı olmak istiyorum. Ben de Türkiye’den kalkıp gelmeden önce çok fazla sorum vardı ve rehber arıyordum. Aracı bir kurum olmadan da tek başınıza yapabileceğinizi göstermek istiyorum. Ben hepsini kendi başıma yaptım. O nedenle birilerine yardımcı olabilirsem ne mutlu!</p>
+    </section>
+
+    <section>
+        <h2>Vize Süreci</h2>
+        <p>İspanya'da öğrenci vizesi nasıl alınır? Kimler alabilir? Hangi yaş grupları? Dil okulu ile almanın avantajları nelerdir? Deneyimlerimi sizinle paylaşarak, süreci daha hızlı ve sorunsuz tamamlamanıza yardımcı olmak istiyorum. Süreçle ilgili tecrübelerimle sizler de başvurunuzu kolayca yapabilirsiniz. Detaylı bilgi almak için iletişime geçebilirsiniz.</p>
+    </section>
+
+    <section>
+        <h2>İletişim</h2>
+        <p>Sorularınız mı var? Hemen benimle iletişime geçin!</p>
+        <p>📲 <a href="#">WhatsApp üzerinden iletişime geçmek için tıklayın</a></p>
+        <p>📧 <a href="#">E-posta göndermek için tıklayın</a></p>
+    </section>
+
     <footer>
         &copy; 2024 İspanya Vize ve Dil Okulu | Tüm Hakları Saklıdır.
     </footer>
