@@ -9,61 +9,110 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff4d6;
-            text-align: center;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #c60b1e;
+            background-color: #d32f2f;
             color: white;
-            padding: 15px 0;
-            font-size: 24px;
-        }
-        section {
-            margin: 20px;
             padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 28px;
         }
-        a {
-            color: #c60b1e;
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #d32f2f;
             text-decoration: none;
             font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
         }
         footer {
             margin-top: 20px;
             padding: 10px;
-            background-color: #c60b1e;
+            background-color: #d32f2f;
             color: white;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #d32f2f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #b71c1c;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <header>İspanya Vize ve Dil Okulu</header>
-    
-    <section>
+    <header>
+        İspanya Vize ve Dil Okulu
+    </header>
+
+    <nav>
+        <a href="#kapak">Kapak</a>
+        <a href="#anasayfa">Ana Sayfa</a>
+        <a href="#vizesureci">Vize Süreci</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <section id="kapak">
+        <img src="https://via.placeholder.com/400x200" alt="İspanya Görseli">
+        <h1>İspanya Vizesi ve Dil Okulu</h1>
+        <p>İspanya Vizesi nasıl alınır?</p>
+        <a href="#anasayfa" class="button">Ücretsiz Danışmanlık</a>
+    </section>
+
+    <section id="anasayfa">
         <h2>Ana Sayfa</h2>
-        <p>Hoş geldiniz! İspanya'da dil eğitimi almak ve vize sürecinizi kolayca yönetmek mi istiyorsunuz? Nereden başlayacağınızı bilmiyor musunuz? Endişelenmeyin, burada aradığınız her şeyi bulabilirsiniz.</p>
+        <img src="https://via.placeholder.com/800x400" alt="İspanya Resmi">
+        <p>Hoş geldiniz! İspanya'da dil eğitimi almak ve vize sürecinizi kolayca yönetmek mi istiyorsunuz? Burada aradığınız her şeyi bulabilirsiniz.</p>
     </section>
-    
-    <section>
+
+    <section id="hakkimda">
         <h2>Hakkımda</h2>
-        <p>2 yıldır Madrid’te yaşıyorum. Dil okulu ile vize alarak geldim ve diğer tüm vize süreçlerimi aynı okulda İspanya’dan yürüttüm. Sürecin başlangıçta ne kadar karmaşık gelebildiğini biliyorum...</p>
+        <img src="https://via.placeholder.com/800x400" alt="İspanya Resmi">
+        <p>2 yıldır Madrid’te yaşıyorum. Deneyimlerimi paylaşarak yardımcı olmak istiyorum.</p>
     </section>
-    
-    <section>
+
+    <section id="vizesureci">
         <h2>Vize Süreci</h2>
-        <p>İspanya'da öğrenci vizesi nasıl alınır? Kimler alabilir? Hangi yaş grupları? Dil okulu ile almanın avantajları nelerdir?</p>
+        <img src="https://via.placeholder.com/800x400" alt="İspanya Vize Görseli">
+        <p>İspanya'da öğrenci vizesi nasıl alınır? Kimler alabilir? Süreçle ilgili tüm detaylar burada!</p>
     </section>
-    
-    <section>
+
+    <section id="iletisim">
         <h2>İletişim</h2>
-        <p>📲 <a href="https://wa.me/YOURNUMBER">WhatsApp üzerinden iletişime geçmek için tıklayın</a></p>
-        <p>📧 <a href="mailto:youremail@example.com">E-posta göndermek için tıklayın</a></p>
+        <p>Sorularınız mı var? Hemen benimle iletişime geçin!</p>
+        <a href="https://wa.me/" class="button">WhatsApp</a>
+        <a href="mailto:example@example.com" class="button">E-posta</a>
     </section>
-    
+
     <footer>
-        © 2025 İspanya Vize ve Dil Okulu
+        &copy; 2024 İspanya Vize ve Dil Okulu | Tüm Hakları Saklıdır.
     </footer>
 </body>
 </html>
